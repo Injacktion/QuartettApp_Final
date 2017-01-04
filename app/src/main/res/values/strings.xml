@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuartettApp</string>
+    <string name="app_MeinQuartett">Mein Quartett</string>
+    <string name="app_Lokal">Lokal</string>
+    <string name="action_search">Suchen</string>
+    <string name="find_card">Lokal suchen...</string>
+    <string name="unlock">Zum Entwerten bitte entsperren</string>
+</resources>

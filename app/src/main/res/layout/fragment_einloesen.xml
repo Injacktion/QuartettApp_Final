@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_kartendetail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#cfcfcf"
+    tools:context=".activities.MeinQuartettActivity">
+
+    <TableRow
+        android:id="@+id/table1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/einloesen_id"
+            android:layout_weight="1"
+            android:text="A1"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/einloesen_name"
+            android:layout_gravity="right"
+            android:layout_weight="0"
+            android:text="Die Hochschule"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+
+            />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_height="170dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/fragment_margin_top">
+
+        <ImageView
+            android:id="@+id/einloesen_lokalimg"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/table2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#6fd957"
+        android:padding="5dip">
+
+        <TextView
+            android:text="Gutschein:"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/einloesen_gutschein" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_gravity="center|right"
+            android:layout_weight="5"
+            android:id="@+id/einloesen_gutscheinwert"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+           />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/table3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fragment_margin_top"
+        android:background="#4ca937"
+        android:padding="5dip">
+
+        <TextView
+            android:text="Gültig bis:"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/einloesen_gueltigbis" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/einloesen_gueltigbiswert" />
+
+    </TableRow>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/fragment_margin_top"
+        android:orientation="vertical"
+        android:id="@+id/einloesen_layout"
+        >
+    <TextView
+        android:text="@string/unlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/einloesen_bitte"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <Button
+        android:text="Entsperren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/colorbutton3"
+        android:id="@+id/entsperren_button" />
+    </LinearLayout>
+
+
+    <TableRow
+        android:id="@+id/table_entwertet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fragment_margin_top"
+        android:background="#fb9778"
+        android:padding="5dip">
+
+        <TextView
+            android:text="Eingelöst am:"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/einloesen_entwertet" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/einloesen_entwertetwert" />
+
+    </TableRow>
+</TableLayout>

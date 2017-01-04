@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_kartendetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cfcfcf"
+        tools:context=".activities.MeinQuartettActivity">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/kartendetail_id"
+                android:layout_weight="1"
+                android:text="A1"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kartendetail_name"
+                android:layout_gravity="right"
+                android:layout_weight="0"
+                android:text="Die Hochschule"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                />
+        </TableRow>
+
+
+
+            <LinearLayout
+                android:layout_height="170dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="@dimen/fragment_margin_top">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+
+
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#bebebe"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/kartendetail_haltestelle"
+                android:layout_weight="1"
+                android:text="Europaplatz"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kartendetail_adresse"
+                android:layout_gravity="right"
+                android:layout_weight="0"
+                android:text="Pfinzstraße 3"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_margin_top"
+            android:background="#6fd957"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/kartendetail_gruendungsjahr"
+                android:layout_weight="1"
+                android:text="Gründungsjahr"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kartendetail_gruendungsjahrwert"
+                android:layout_gravity="right"
+                android:layout_weight="0"
+                android:text="1988"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_margin_top"
+            android:background="#4ca937"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/kartendetail_guenstigstesbier"
+                android:layout_weight="1"
+                android:text="Günstiges 0.5 Bier"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kartendetail_guenstigstesbierwert"
+                android:layout_gravity="right"
+                android:layout_weight="0"
+                android:text="3.70"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_margin_top"
+            android:background="#30811e"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/kartendetail_schritte"
+                android:layout_weight="1"
+                android:text="Schritte Eingang-Theke"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kartendetail_schrittewert"
+                android:layout_gravity="right"
+                android:layout_weight="0"
+                android:text="15"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_margin_top"
+            android:background="#1e670e"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/kartendetail_fassungsvermoegen"
+                android:layout_weight="1"
+                android:text="Fassungsvermögen"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kartendetail_fassungsvermoegenwert"
+                android:layout_gravity="right"
+                android:layout_weight="0"
+                android:text="80"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_margin_top"
+            android:background="#0f4801"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/kartendetail_weibliche"
+                android:layout_weight="1"
+                android:text="Weibliche Bedienungen"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kartendetail_weiblichewert"
+                android:layout_gravity="right"
+                android:layout_weight="0"
+                android:text="80"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_margin_top"
+            android:background="#000000"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/kartendetail_Gutschein"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:text="Gutschein:"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kartendetail_gutscheinwert"
+                android:layout_width="0dp"
+                android:layout_gravity="center|right"
+                android:layout_weight="5"
+                android:text="1 Bier"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                />
+
+        </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/kartendetail_gueltigbis"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="Gültig bis:"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kartendetail_gueltigbiswert"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:text="30.09.2017"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/kartendetail_einlösen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="@drawable/colorbutton"
+            android:text="Einlösen"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+</TableLayout>

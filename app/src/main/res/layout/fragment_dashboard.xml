@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:text="Nächstes Lokal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/button_naechstes"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/button_meinQuartett"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Quartett Kaufen"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/button_quartettkaufen"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/button_naechstes"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/button_meinQuartett"
+        android:layout_marginTop="97dp"
+        android:text="Mein Quartett"
+        android:onClick="meinQuartett"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
